@@ -1,0 +1,6 @@
+title: Mi Lista de Deseos de Cumpleaños
+description: Lista de regalos para mi cumpleaños.
+baseurl: "/lista-de-cumple" # Este es el nombre del repositorio
+url: "https://devanduxwin.github.io" 
+markdown: kramdown
+theme: jekyll-theme-cayman
