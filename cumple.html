@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Deseos de Cumpleaños</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e3f2fd; /* Fondo azul claro */
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Animación de entrada para el contenedor */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Título */
+        h1 {
+            color: #1a73e8; /* Azul más vibrante */
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            margin-top: 0;
+            font-style: italic;
+        }
+
+        /* Lista */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Elementos de la lista */
+        li {
+            background-color: #e8f0fe; /* Azul muy claro para los ítems */
+            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 6px solid #1a73e8;
+            font-size: 1.2em;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para las animaciones */
+        }
+
+        /* Animación al pasar el cursor */
+        li:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mi Lista de Deseos de Cumpleaños</h1>
+        <p>Aquí hay algunas cosas que me gustaría tener. ¡Gracias!</p>
+        
+        <ul>
+            <li>Targeta SSD NVMe M.2 compatible con macOS Sequoia</li>
+            <li>Tarjeta de memoria microSD para la Switch</li>
+            <li>Par de JoyCon 1 con forma a los originales (No importa si son genericos, lo necesario es la forma)</li>
+            <li>Memoria USB</li>
+        </ul>
+    </div>
+</body>
+</html>
